@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
 
 html, body {
@@ -9,7 +10,7 @@ html, body {
 
 /*inicio do parallax1*/
 
-.parallax1{
+#parallax1{
 
     position: relative;
     height: 100%;
@@ -84,7 +85,7 @@ html, body {
 
 /*fim do parallax1*/
 
-.parallax2{
+#parallax2{
 
     position: relative;
     height: 100%;
@@ -111,7 +112,7 @@ html, body {
 
 }
 
-#about h1{ 
+.about h1{ 
 
     color: rgb(27, 27, 27);
     font-size: 40px;
@@ -119,10 +120,10 @@ html, body {
     font-family: "Lexend", sans-serif;
 }
 
-#about p{
+.about p{
     
     color: rgb(27, 27, 27);
-    font-size: 18px;
+    font-size: 19px;
     font-family: "Lexend", sans-serif;
     text-align: justify;
     padding: 80px 50px;
@@ -303,4 +304,351 @@ html, body {
     width: 210px;
     height: 50px;
     margin-left: 30px;
+}
+
+/*inicio do parallax3*/
+
+.parallax3{
+
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://wallpapersok.com/images/hd/cover-your-eyes-the-mighty-mewtwo-is-here-bcwfpvbbrr86o3ti.jpg);
+  
+}
+
+.caption5{
+
+    width: 550px;
+    height: 500px;
+    
+}
+
+.titlegame{
+
+    font-family: "Lexend", sans-serif;
+    font-size: 30px;
+    color: rgb(72, 14, 110);
+    padding: 20px 10px 10px 80px;
+    text-shadow: 6px 8px 10px rgb(255, 255, 255);
+
+}
+
+.txt_box{
+
+  position: relative; 
+  left: 50%;
+  bottom: 54%;
+  width: 700px;
+  height: 680px;
+  background-color: rgba(237, 149, 255, 0.589);
+  border-radius: 40px;
+  box-shadow: rgba(41, 41, 41, 0.5) 0px -23px 25px 0px inset,
+              rgba(132, 0, 158, 0.438) 0px -36px 30px 0px inset,
+              rgba(146, 146, 146, 0.705) 0px -79px 40px 0px inset,
+              rgba(29, 29, 29, 0.534) 0px 2px 1px,
+              rgba(54, 54, 54, 0.575) 0px 4px 2px,
+              rgba(41, 41, 41, 0.555) 0px 8px 4px,
+              rgba(34, 34, 34, 0.664) 0px 16px 8px,
+              rgba(24, 24, 24, 0.623) 0px 32px 16px;
+  padding: 0px 20px;
+  
+
+}
+
+.txt_game{
+
+    font-family: "Lexend", sans-serif;
+    font-size: 18px;
+    color: rgb(32, 32, 32);
+    text-align: left;
+    padding: 3px 10px 0 10px;
+    width: 500px;
+}
+
+.txt_game h3:hover{ /*transição suave de aumento de fonte em cada titulo h3*/
+
+    font-size: 30px;
+}
+
+.txt_game h3{
+
+    font-family: "Lexend", sans-serif;
+    font-size: 25px;
+    color: rgb(87, 0, 114);    
+    padding: 10px 10px 0 10px;
+    text-align: left;
+    transition: all ease-in-out 0.7s;
+    
+}
+
+.txt_cartoon h3{
+
+    font-family: "Lexend", sans-serif;
+    font-size: 25px;
+    color: rgb(87, 0, 114);
+    padding: 10px 10px 0 10px;
+    text-align: left;
+    transition: all ease-in-out 0.7s;
+}
+
+.txt_cartoon h3:hover{
+
+    font-size: 30px;
+}
+
+.txt_cartoon{
+
+    font-family: "Lexend", sans-serif;
+    font-size: 18px;
+    color: rgb(32, 32, 32);
+    text-align: left;
+    padding: 0 10px 0 10px;
+    width: 500px;
+}
+
+.txt_cards h3{
+
+    font-family: "Lexend", sans-serif;
+    font-size: 25px;
+    color: rgb(87, 0, 114);
+    padding: 10px 10px 0 10px;
+    text-align: left;
+    transition: all ease-in-out 0.7s;
+}
+
+.txt_cards h3:hover{
+
+    font-size: 30px;
+}
+
+.txt_cards{
+
+    font-family: "Lexend", sans-serif;
+    font-size: 18px;
+    color: rgb(32, 32, 32);
+    text-align: left;
+    padding: 0 10px 0 10px;
+    width: 500px;
+}
+
+.txt_pokemonGO h3{
+
+    font-family: "Lexend", sans-serif;
+    font-size: 25px;
+    color: rgb(87, 0, 114);
+    padding: 10px 10px 0 10px;
+    text-align: left;
+    transition: all ease-in-out 0.7s;
+}
+
+.txt_pokemonGO h3:hover{
+
+    font-size: 30px;
+}
+
+.txt_pokemonGO{
+
+    font-family: "Lexend", sans-serif;
+    font-size: 18px;
+    color: rgb(32, 32, 32);
+    text-align: left;
+    padding: 0 10px 0 10px;
+    width: 500px;
+}
+
+/*inicio do parallax 4*/
+
+.parallax4{
+
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://wallpapercrafter.com/desktop/69416-pokemon-cartoons-artist-artwork-digital-art-hd-4k-deviantart.jpg);
+}
+
+.caption6{
+
+    position: relative;
+    width: 500px;
+    height: 500px;
+    left: 5%;
+}
+
+.forbeginners{
+
+    font-family: "Lexend", sans-serif;
+    font-size: 35px;
+    color: rgb(217, 255, 0);
+    text-shadow: 6px 5px 5px rgba(0, 0, 0, 0.678);
+    padding: 60px 90px 0 0;
+
+}
+
+.subtitle_beginners{
+
+    font-family: "Lexend", sans-serif;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.705);
+}
+
+.levelone{
+
+    font-family: "Lexend", sans-serif;
+    font-size: 20px;
+    color: white;
+    width: 500px;
+    position: relative;
+    left: 50%;
+    bottom: 50%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.452);
+    border-radius: 30px;
+    margin-bottom: 3%;
+    transition: all ease-in-out 0.7s; /*para o hover*/
+    
+}
+
+.levelone:hover{
+
+    background-color: rgba(217, 255, 0, 0.575);
+    color: rgb(24, 24, 24);
+}
+
+.leveltwo{
+
+    font-family: "Lexend", sans-serif;
+    font-size: 20px;
+    color: white;
+    width: 500px;
+    position: relative;
+    left: 50%;
+    bottom: 50%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.452);
+    border-radius: 30px;
+    transition: all ease-in-out 0.7s;
+}
+
+.leveltwo:hover{
+
+    background-color: rgb(217, 255, 0, 0.575);
+    color: rgb(24, 24, 24);
+
+}
+
+/*inicio do parallax 5*/
+
+.parallax5{
+
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/lastpage.jpg);
+}
+
+.caption7{
+
+    position: relative;
+    width: 600px;
+    height: 500px;
+    top: 5%;
+    left: 5%;
+}
+
+.last_title{
+
+    font-family: "Tilt Warp", sans-serif;
+    font-size: 40px;
+    background-image: linear-gradient(to bottom, yellow, orange, red); /*define uma 'imagem' como gradiente de fundo*/
+    background-clip: text;  /*aplica o gradiente da imagem de fundo apenas ao texto*/
+    -webkit-text-fill-color: transparent; /*aplica transparencia ao texto*/
+    text-shadow: 6px 5px 5px rgba(0, 0, 0, 0.336);
+}
+
+.last_subtitle{
+
+    font-family: "Lexend", sans-serif;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.836);
+}
+
+.return_top{
+
+    font-family: "Lexend", sans-serif;
+    font-size: 20px;
+    position: relative;
+    top: 40%;
+}
+
+.return_top a{
+
+    color: #ffffff8a;
+    text-decoration: underline 1px;
+    transition: all ease-in-out 0.5s;
+}
+
+.return_top a:hover{
+
+    font-size: 25px;
+    color: rgb(255, 72, 0);
+    
+}
+
+/*footer*/
+
+.footer {
+
+    font-family: "Lexend", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    background-attachment: fixed;
+    position: relative;
+    min-width: 100vh;
+    height: 20%;
+    top: 30%;
+    background-color: #252525;
+    color: #fff;
+    padding: 30px 20px 10px;
+
+}
+
+.footer-social a {
+
+  font-family: "Lexend", sans-serif;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-social a:hover {
+  color: #ffcb05;
+}
+
+.footer-social h3{
+
+     margin-top: 0;
+}
+
+.footer-bottom {
+
+font-family: "Lexend", sans-serif;
+  text-align: center;
+  border-top: 1px solid #444;
+  margin-top: 20px;
+  padding-top: 15px;
+  font-size: 12px;
+  color: #aaa;
 }
